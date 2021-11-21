@@ -1,8 +1,10 @@
 from Graph import Graph
 
-# Press the green button in the gutter to run the script.
+
+# driver creating graph and run functions
 if __name__ == '__main__':
     # creating Click graph order N
+    # Modify your graph as you want!
     N = 7
     g = Graph()
     for i in range(N):
@@ -14,7 +16,7 @@ if __name__ == '__main__':
             if i != j:
                 g.add_edge(i, j)
 
-    # Printing the graph
+    # Printing the graph adjacency list
     g.print()
 
     print("Perform DFS on G...")
